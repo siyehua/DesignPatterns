@@ -11,4 +11,4 @@
  * 模式让开发人员之间有共享的语言,能够最大化沟通的价值.
 
 #类图
-![Class Graph](/code/src/main/java/com.siyehua/chapter1/chapter1_001.jpg)
+![Class Graph](/code/src/main/java/com/siyehua/chapter1/chapter1_001.jpg)
