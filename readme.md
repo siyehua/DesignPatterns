@@ -29,7 +29,7 @@ Head First设计模式不仅仅讲解了设计模式,还总结了应该怎么高
 
 [命令模式](/code/src/main/java/com/siyehua/chapter6)
 
-[适配器模式](/code/src/main/java/com/siyehua/chapter7)
+[适配器与外观模式](/code/src/main/java/com/siyehua/chapter7)
 
 [模板方法模式](/code/src/main/java/com/siyehua/chapter8)
 
