@@ -1,4 +1,4 @@
-#迭代器与组合模式
+# 迭代器与组合模式
 这章篇幅比较长,但是是因为两个模式一起讲解.模式本身并不难理解.
 
 模式|描述
@@ -11,16 +11,16 @@
 观察者|当某个状态改变时,允许一群对象能够被通知到.
 
 
-##迭代器模式
+## 迭代器模式
 迭代器模式提供一种方法顺序访问一个聚合对象中的各个元素,而又不暴露其内部的表示.
 
 ![Class Graph](/code/src/main/java/com/siyehua/chapter9/chapter9_001.jpg)
 
-###Java/Android应用
+### Java/Android应用
 Java的Collection集合都使用了迭代器模式,并且可以使用foreach循环.
 
 
-##组合模式
+## 组合模式
 允许你将对象组成树形结构来表现"整体/部分"的层次结构.组合能让客户以一致的方式处理个别对象和对象组合.
 
 组合模式破坏了"一个类,一个责任"的原则.组合模式用单一原则换取了透明性.
@@ -36,12 +36,12 @@ Java的Collection集合都使用了迭代器模式,并且可以使用foreach循�
 
 ![Class Graph](/code/src/main/java/com/siyehua/chapter9/chapter9_002.jpg)
 
-###Java/Android应用
+### Java/Android应用
 Android中的View与ViewGroup使用了组合模式.ViewGroup中也有View,但是View中的某些操作其实并不适合ViewGroup,反之亦然.
 
 例如ListView作为一个ViewGroup,并不支持setOnClickListener,它只只是对它的Item进行监听操作.
 
-##要点
+## 要点
  * 迭代器允许访问聚合的元素,而不许哭暴露它的内部结构.
  * 迭代器提供了一个通用的接口,让我们遍历聚合的项,当我们变M码使用聚合的项时,就可以使用多态机制.
  * 我们应该努力让一个类只分配一个责任.(类应该只有一个改变的理由)
