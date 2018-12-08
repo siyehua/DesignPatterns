@@ -41,7 +41,7 @@ Head First设计模式不仅仅讲解了设计模式,还总结了应该怎么高
 
 [复合模式](/code/src/main/java/com/siyehua/chapter12)
 
-[与设计模式相处](/code/src/main/java/com/siyehua/chapter13)
+[与设计模式相处](/code/src/main/java/com/siyehua/chpter13)
 
 ## 设计箱内的工具
 ### OO基础
